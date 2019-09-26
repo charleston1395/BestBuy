@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestBuy", "BestBuy\BestBuy.csproj", "{67938E30-484A-459D-8FC5-1F51014236AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestBuyTest", "BestBuyTest\BestBuyTest.csproj", "{5D0E594C-3A02-43EE-B876-F573614F2C3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67938E30-484A-459D-8FC5-1F51014236AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67938E30-484A-459D-8FC5-1F51014236AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67938E30-484A-459D-8FC5-1F51014236AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67938E30-484A-459D-8FC5-1F51014236AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0E594C-3A02-43EE-B876-F573614F2C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0E594C-3A02-43EE-B876-F573614F2C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0E594C-3A02-43EE-B876-F573614F2C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0E594C-3A02-43EE-B876-F573614F2C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A977AAB-5F75-4F2D-BCA1-74BD9E6C5309}
+	EndGlobalSection
+EndGlobal
