@@ -8,15 +8,12 @@ namespace BestBuy
     {
         public string Name { get; set; }
         public double Price { get; set; }
-        public double PriceWithTax()
+        public double PriceWithTax(double price)
 
         {
-            Price = 300;
-            _ = Price * 1.1;
+            Price = price;
+            return price * 1.1;
             
-            Name = ("Xbox one");
-            Console.WriteLine("The price of the Xbox one is 300 with tax the cost is 330");
-            return Price;
         }
 
 

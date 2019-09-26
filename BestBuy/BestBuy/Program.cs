@@ -9,7 +9,7 @@ namespace BestBuy
             var game = new Product();
             game.Name = "Xbox One";
             game.Price = 300;
-            Console.WriteLine("Product Name: " + game.Name + "Price" + game.Price + " After Tax: " + game.PriceWithTax());
+            Console.WriteLine($"{game.Name} costs {game.PriceWithTax(300)} with tax included. or {game.Price} without tax");
         }
     }
 }
